@@ -982,7 +982,7 @@ def new_game():
     equipment_component.equip()
     obj.always_visible = True
 
-    message('Welcome stranter! Prepare to perish in the Tombs of the Ancient Kings.', libtcod.red)
+    message('Welcome stranger! Prepare to perish in the Tombs of the Ancient Kings.', libtcod.red)
 
 def initialize_fov():
     libtcod.console_clear(con_map)
